@@ -75,11 +75,7 @@ public class GameController : MonoBehaviour
         return playerSide;
 
     }
-    //public string GetComputerSide()
-   // {
-      //  return computerSide;
-
-    //}
+   
     public void EndTurn()
     {
         moveCount++;
@@ -178,7 +174,7 @@ public class GameController : MonoBehaviour
         
         moveCount = 0;
         gameOverPanel.SetActive(false);
-      //  restartButton.SetActive(false);
+      // restartButton.SetActive(false);
 
         SetPlayerButtons(true);
         SetPlayerColorsInactive();
